@@ -1,0 +1,27 @@
+public class Impetus {
+
+	public static void main(String[] args) {
+		
+
+		String s = "123a";
+		boolean flag = false;
+		for (int i = 0; i < s.length(); i++) {
+
+			char c = s.charAt(i);
+
+			if (c > '1' || c < '9') {
+				flag = true;
+				break;
+
+			}
+
+		}
+		if (flag) {
+			System.out.println("Not a valid number");
+		} else {
+			System.out.println("valid number");
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Impetus {
+
+	public static void main(String[] args) {
+		
+		List<String> arr = new ArrayList<>();
+		
+		arr.add("Mango");
+		arr.add("Apple");
+		arr.add("Banana");
+		arr.add("Mango");
+		arr.add("Orange");
+		
+		
+		Long count = arr.stream().filter(x -> x.equals("Mango")).count();
+		System.out.println(count);
+
+	}
+
+}

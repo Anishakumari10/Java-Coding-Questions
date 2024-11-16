@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Users\anisha.kumari\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143" version="17.0.10"/>
+    <libraryInfo home="C:\Users\anisha.kumari\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre" version="17.0.10"/>
+    <libraryInfo home="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2" version="1.8.0_312">
+        <bootpath>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk-1.8.0.312-2\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\RedHat\java-21-openjdk-21.0.4.0.7-1" version="21.0.4"/>
+</libraryInfos>

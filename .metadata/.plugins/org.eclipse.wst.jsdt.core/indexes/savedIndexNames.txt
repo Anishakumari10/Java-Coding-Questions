@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\anisha.kumari\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+770465344.index
+418264233.index
+3902391540.index
+148528555.index
+2521416049.index
+3165375805.index

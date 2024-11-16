@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class sequentialCheck {
+
+	public static void main(String[] args) {
+		
+		String word;
+		int count =0;
+		String ans = " ";
+
+		
+		word = "COMPUTER";
+
+		for(int i = 0; i< word.length(); i++)
+		{
+
+			char ch = word.charAt(i);
+			if((ch == 'a') || (ch == 'A') || (ch == 'e') || (ch == 'E') || (ch == 'i') || (ch == 'I')||(ch == 'o') || (ch == 'O')||(ch == 'u') || (ch == 'U')){
+			
+			count = count+1; 
+			}
+			if(count == 1)
+			continue;
+			else if((word.charAt(i) == word.charAt(i+1)))
+			ans = ans + ch; 
+			else
+			ans = ans + ch;
+
+
+		}
+		System.out.print("Result:"+ans);
+		}
+
+	}
+
+

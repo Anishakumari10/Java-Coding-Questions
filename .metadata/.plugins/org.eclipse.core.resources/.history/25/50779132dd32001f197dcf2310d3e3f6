@@ -1,0 +1,46 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class StringCompression {
+
+	public static int compress(char[] chars) {
+
+		int c = 0;
+		var s = "";
+		boolean flag = true;
+		int k = 1;
+		if (chars.length == 1) {
+			char ch = chars[0];
+			s = s + ch;
+		}
+		int count = 1;
+		Map<Character, Integer> map = new HashMap<>();
+		for (int i = 0; i < chars.length; i++) {
+
+			if (!map.containsKey(chars[i])) {
+				map.put(chars[i], 1);
+			} else {
+				count = map.get(chars[i])+1;
+				map.put(chars[i], count);
+			}
+
+		}
+		
+		for(Entry<Character, Integer> hm : map.entrySet()) {
+		System.out.println(hm.getKey()+hm.getValue());
+		}
+		return count;
+
+
+	}
+
+	public static void main(String[] args) {
+
+		char ch[] = { 'a', 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'c', 'c' };
+		int a = compress(ch);
+		System.out.println(a);
+
+	}
+
+}

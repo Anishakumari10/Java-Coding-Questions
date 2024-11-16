@@ -1,0 +1,38 @@
+public class sequentialCheck {
+
+	public static void main(String[] args) {
+
+		String word;
+		int count = 0;
+		String ans = " ";
+
+		word = "RANDEEP"; // RNDEEP
+
+		for (int i = 0; i < word.length() - 1; i++) {
+
+			char ch = word.charAt(i);
+			
+			
+			if (vowelCheck(word.charAt(i)) == vowelCheck(word.charAt(i))) {
+			 {
+				 ans = ans + ch;
+				
+			}
+			 vowelCheck(word.charAt(i)).
+				ans = ans + ch;
+			}
+		}
+
+		System.out.print("Result:" + ans);
+	}
+	public static boolean vowelCheck(char ch) {
+		if ((ch == 'a') || (ch == 'A') || (ch == 'e') || (ch == 'E') || (ch == 'i') || (ch == 'I') || (ch == 'o')
+				|| (ch == 'O') || (ch == 'u') || (ch == 'U'))
+		return true;
+		else
+			return false;
+		
+	}
+	
+
+}

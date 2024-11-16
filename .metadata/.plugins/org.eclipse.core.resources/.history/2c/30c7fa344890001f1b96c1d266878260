@@ -1,0 +1,13 @@
+package com.example.anisha;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ExpenseManagerRestApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ExpenseManagerRestApiApplication.class, args);
+	}
+
+}

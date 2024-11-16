@@ -1,0 +1,32 @@
+package com.example.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.example.hibernate.model.User;
+import com.example.hibernate.util.HibernateUtil;
+
+public class Main {
+	public static void main(String args[]) {
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Transaction transaction = null;
+		try {
+			transaction = session.beginTransaction();
+			User user = new User();
+			user.setId(1);
+			user.setName("anisha");
+			user.setEmail("anisha@gmail.com");
+			session.save(user);
+			transaction.commit();
+			User retrievedUser = (User) session.get(User.class, user.getId());
+			System.out.println("Retrieved user:" + retrievedUser.getName() + "," + retrievedUser.getEmailString());
+
+		} catch (Exception e)
+
+		{
+			// TODO: handle exception
+		}
+		HibernateUtil.shutdown();
+	}
+
+}

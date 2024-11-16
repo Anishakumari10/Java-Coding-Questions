@@ -1,0 +1,28 @@
+package ThreadPackage;
+
+public class evenOddProblem implements Runnable{
+	
+	
+
+	public static void main(String[] args) {
+		
+		Thread t  = new Thread();
+		t.start();
+
+	}
+	static int  count = 1;
+	
+	@Override
+	public void run() {
+		
+		while(count <= 10) {
+		if(count % 2 == 0) {
+			System.out.println(count);
+		}
+		else
+			System.out.println(count);
+		
+	}
+	}
+
+}

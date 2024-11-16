@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=5
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=5
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=app-rest-api
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.2.10
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=RestApi project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.example.anisha
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=expense-manager-rest-api
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.example.anisha
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=GRADLE
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

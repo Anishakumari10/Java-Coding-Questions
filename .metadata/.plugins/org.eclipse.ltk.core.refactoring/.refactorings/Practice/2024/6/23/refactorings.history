@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;collect&apos; in &apos;StreamsPackage.streamExamples.main(...)&apos; to &apos;list&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;StreamsPackage.streamExamples.main(String[]).collect&apos;&#x0D;&#x0A;- Renamed element: &apos;collect&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;collect&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;StreamsPackage{streamExamples.java[streamExamples~main~\[QString;@collect!266!343!280!286!QList\&lt;QInteger;&gt;;!0!false" name="list" references="true" stamp="1717790529167" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arr&apos; in &apos;sampleStaticExample.findFirstLastIndex(...)&apos; to &apos;nums&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;sampleStaticExample.findFirstLastIndex(int[], int).arr&apos;&#x0D;&#x0A;- Renamed element: &apos;arr&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arr&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{sampleStaticExample.java[sampleStaticExample~findFirstLastIndex~\[I~I@arr!78!84!82!84!\[I!0!true" name="nums" references="true" stamp="1712605062338" version="1.0"/>
+</session>

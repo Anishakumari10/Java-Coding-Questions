@@ -1,0 +1,20 @@
+1718044976861	Delete element
+1718045702026	Move compilation unit
+1718045948343	Delete element
+1718099173463	Move compilation unit
+1718099179763	Move compilation unit
+1718099331936	Rename type 'HelloBean'
+1718099407946	Rename type 'basicAuthentication'
+1718099499059	Rename type 'webserviceController'
+1718100085958	Rename type 'BasicAuthenticationBean'
+1718270252108	Rename package 'com.angular.spring.webservice.com.restful_web_service.basic.auth'
+1718270560776	Delete element
+1718270730587	Rename package 'com.in28minutes.rest.webservices.restfulwebservices.jwt'
+1718275025126	Delete element
+1718275095836	Rename package 'com.angular.spring.webservice.com.restful_web_services.jwt'
+1718282184133	Move compilation unit
+1718282225432	Move compilation unit
+1718282241129	Move compilation unit
+1718282380706	Copy compilation unit
+1718282447007	Delete element
+1718282476963	Rename type 'AuthenticationBean2'

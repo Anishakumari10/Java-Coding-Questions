@@ -1,0 +1,6 @@
+1721714082705	Delete element
+1721716637473	Rename package 'hibernateexample.model'
+1721716787886	Rename package 'com.hibernateexample.model.util'
+1721717232451	Move 'Employee.hbm.xml' to 'mapping'
+1721718444162	Delete element
+1721718630485	Rename resource 'mapping'

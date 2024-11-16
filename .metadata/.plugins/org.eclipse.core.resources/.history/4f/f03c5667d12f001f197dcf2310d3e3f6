@@ -1,0 +1,45 @@
+
+public class StringCompression {
+	
+	    public static int compress(char[] chars) {
+
+	        int c = 0;
+	        String s = '';
+	        boolean flag = true;
+	        int k = 1;
+	        if (chars.length == 1) {
+	            char ch = chars[0];
+	            s = s + ch;
+
+	        }
+	        for (int i = 0; i < chars.length; i++) {
+	            char ch = chars[i];
+	            if (k <= chars.length-1 && ch == chars[k]) {
+	                c++;
+	                k++;
+
+	            }
+	            if (c > 1) {
+	                s = s + ch + c;
+	            } else {
+	                s = s + ch;
+	            }
+	            c = 0;
+	            k = i + 1;
+	        }
+
+	        return s.length();
+	    }
+	
+
+	public static void main(String[] args) {
+		
+		char ch[] = {'a','b','b','b','b','b','b','b','b','b','b','b','b'};
+		int a = compress(ch);
+		System.out.println(a);
+		
+		
+		
+	}
+
+}
